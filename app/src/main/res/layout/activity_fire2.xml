@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/wallpaperfire2"
+    tools:context=".FireActivity2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="780dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="300dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/Weloow"
+                app:cardCornerRadius="50dp"
+                tools:layout_editor_absoluteX="74dp"
+                tools:layout_editor_absoluteY="164dp">
+                <TextView
+                    android:id="@+id/Text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="Maçã com Canela"
+                    android:textColor="@color/Whitte"
+                    android:textSize="30sp" />
+
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Voltar"
+                    android:backgroundTint="@color/Wel"
+                    android:layout_marginTop="720dp"
+                    android:layout_marginLeft="110dp"/>
+                <ScrollView
+                    android:layout_width="330dp"
+                    android:layout_height="350dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="360dp"
+                    android:layout_marginRight="10dp"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="375dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Os benefícios do chá de maçã e canela, além do aroma dessa ótima combinação, une as melhores propriedades dos dois ingredientes em uma única bebida, enquanto a maçã é uma fruta rica em fibras a canela é um ótimo anti-inflamatório."
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/Whitte"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/Text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Ingredientes"
+                    android:textColor="@color/Whitte"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Whitte"
+                    android:text="3 maçãs em cubos médios
+2 canelas em pau
+1 litro de água"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"/>
+                    <TextView
+                        android:id="@+id/Text9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/Whitte"
+                        android:text="Modo de Preparo"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/Text8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/Whitte"
+                        android:text="1.  Em uma panela, coloque as maçãs, a canela e a água e eleve ao fogo alto.
+
+2.  Assim que ferver, diminua o fogo para baixo e deixe cozinhar por cerca de 1h30, até reduzir o líquido pela metade.
+
+3.  Desligue o fogo e, sobre um recipiente, passe o chá por uma peneira para coar. Aperte bem as maçãs com uma espátula para extrair todo o líquido. Sirva a seguir."
+                        android:textSize="20sp" />
+                </LinearLayout>
+                </ScrollView>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_height="250dp"
+                    app:srcCompat="@drawable/maca" />
+            </androidx.cardview.widget.CardView>
+
+</LinearLayout>
